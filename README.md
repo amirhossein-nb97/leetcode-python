@@ -93,7 +93,7 @@ A worked example is available at [Two Sum](examples/p0001_two_sum/README.md), an
 ## Profiles
 
 - **GitHub:** [(https://www.linkedin.com/in/amir-hossein-nazm-bojnordi)]
-- **LeetCode:** [Add your LeetCode profile URL here(https://leetcode.com/u/amirhosseinnb/)]
+- **LeetCode:** [(https://leetcode.com/u/amirhosseinnb/))]
 
 ---
 
