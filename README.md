@@ -21,10 +21,10 @@ This repository documents how I approach coding challenges: **understand the pro
 
 | Difficulty | Solved |
 | :-- | --: |
-| Easy | 1 |
+| Easy | 4 |
 | Medium | 0 |
 | Hard | 0 |
-| **Total** | **1** |
+| **Total** | **4** |
 
 > This table is updated manually as solutions are published. The example in `examples/` is not included in these counts.
 
@@ -32,6 +32,9 @@ This repository documents how I approach coding challenges: **understand the pro
 
 | # | Problem | Difficulty | Topics | Approach | Solution |
 | --: | :-- | :-- | :-- | :-- | :-- |
+| 485 | [Max Consecutive Ones](https://leetcode.com/problems/max-consecutive-ones/) | Easy | Array | Single Pass, Running Counter | [Explanation](solutions/arrays/p0485_max_consecutive_ones/README.md) · [Python](solutions/arrays/p0485_max_consecutive_ones/solution.py) |
+| 645 | [Set Mismatch](https://leetcode.com/problems/set-mismatch/) | Easy | Array, Sorting | Sorting + Membership Search | [Explanation](solutions/arrays/p0645_set_mismatch/README.md) · [Python](solutions/arrays/p0645_set_mismatch/solution.py) |
+| 1470 | [Shuffle the Array](https://leetcode.com/problems/shuffle-the-array/) | Easy | Array, Simulation | Array Slicing and Interleaving | [Explanation](solutions/arrays/p1470_shuffle_the_array/README.md) · [Python](solutions/arrays/p1470_shuffle_the_array/solution.py) |
 | 1929 | [Concatenation of Array](https://leetcode.com/problems/concatenation-of-array/) | Easy | Array, Simulation | Preallocated Array | [Explanation](solutions/arrays/p1929_concatenation_of_array/README.md) · [Python](solutions/arrays/p1929_concatenation_of_array/solution.py) |
 
 
@@ -62,6 +65,15 @@ leetcode-python/
 ├── README.md                       # Portfolio overview and solution index
 ├── solutions/                      # Your published solutions
 │   └── arrays/
+│       ├── p0485_max_consecutive_ones/
+│       │   ├── README.md           # Problem, approach, and complexity
+│       │   └── solution.py         # Python implementation
+│       ├── p0645_set_mismatch/
+│       │   ├── README.md           # Problem, approach, and complexity
+│       │   └── solution.py         # Python implementation
+│       ├── p1470_shuffle_the_array/
+│       │   ├── README.md           # Problem, approach, and complexity
+│       │   └── solution.py         # Python implementation
 │       └── p1929_concatenation_of_array/
 │           ├── README.md           # Problem, approach, and complexity
 │           └── solution.py         # Python implementation
