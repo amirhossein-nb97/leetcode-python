@@ -21,17 +21,18 @@ This repository documents how I approach coding challenges: **understand the pro
 
 | Difficulty | Solved |
 | :-- | --: |
-| Easy | 5 |
+| Easy | 6 |
 | Medium | 0 |
 | Hard | 0 |
-| **Total** | **5** |
+| **Total** | **6** |
 
-> This table is updated manually as solutions are published. The example in `examples/` is not included in these counts.
+> This table is updated manually as solutions are published.
 
 ## Solved Problems
 
 | # | Problem | Difficulty | Topics | Approach | Solution |
 | --: | :-- | :-- | :-- | :-- | :-- |
+| 1 | [Two Sum](https://leetcode.com/problems/two-sum/) | Easy | Array, Brute Force | Nested Loop Pair Search | [Explanation](solutions/arrays/p0001_two_sum/README.md) · [Python](solutions/arrays/p0001_two_sum/solution.py) |
 | 14 | [Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/) | Easy | String | Incremental Prefix Comparison | [Explanation](solutions/strings/p0014_longest_common_prefix/README.md) · [Python](solutions/strings/p0014_longest_common_prefix/solution.py) |
 | 485 | [Max Consecutive Ones](https://leetcode.com/problems/max-consecutive-ones/) | Easy | Array | Single Pass, Running Counter | [Explanation](solutions/arrays/p0485_max_consecutive_ones/README.md) · [Python](solutions/arrays/p0485_max_consecutive_ones/solution.py) |
 | 645 | [Set Mismatch](https://leetcode.com/problems/set-mismatch/) | Easy | Array, Sorting | Sorting + Membership Search | [Explanation](solutions/arrays/p0645_set_mismatch/README.md) · [Python](solutions/arrays/p0645_set_mismatch/solution.py) |
@@ -66,6 +67,9 @@ leetcode-python/
 ├── README.md                       # Portfolio overview and solution index
 ├── solutions/                      # Your published solutions
 │   ├── arrays/
+│   │   ├── p0001_two_sum/
+│   │   │   ├── README.md           # Problem, approach, and complexity
+│   │   │   └── solution.py         # Author's Python implementation
 │   │   ├── p0485_max_consecutive_ones/
 │   │   │   ├── README.md           # Problem, approach, and complexity
 │   │   │   └── solution.py         # Python implementation
@@ -82,13 +86,9 @@ leetcode-python/
 │       └── p0014_longest_common_prefix/
 │           ├── README.md           # Problem, approach, and complexity
 │           └── solution.py         # Your Python implementation
-├── templates/
-│   ├── README.md                   # Reusable explanation template
-│   └── solution.py                 # Reusable Python template
-└── examples/
-    └── p0001_two_sum/              # Illustrative example (not counted)
-        ├── README.md
-        └── solution.py
+└── templates/
+    ├── README.md                   # Reusable explanation template
+    └── solution.py                 # Reusable Python template
 ```
 
 Topic folders under `solutions/` are created as needed.
@@ -105,7 +105,7 @@ Every published problem follows a consistent format:
 
 Problem directories use the naming convention `pXXXX_problem_name`, where `XXXX` is the zero-padded LeetCode problem number.
 
-A worked example is available at [Two Sum](examples/p0001_two_sum/README.md), and a reusable starting point is available in [templates](templates/README.md).
+The first published example is [Two Sum](solutions/arrays/p0001_two_sum/README.md), and a reusable starting point is available in [templates](templates/README.md).
 
 ## Profiles
 
